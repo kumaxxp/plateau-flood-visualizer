@@ -1,62 +1,61 @@
-# ========== .gitignore ==========
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.env
-*.egg-info/
-dist/
-build/
-
-# Conda
-.conda/
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# Data files (large files)
-data/plateau/*.gpkg
-data/plateau/*.gml
-data/plateau/*.geojson
-data/dem/*.tif
-*.zip
-*.tar.gz
-*.7z
-
-# Output files
-outputs/
-*.png
-*.jpg
-*.jpeg
-*.mp4
-*.html
-
-# Model files
-models/*.safetensors
-models/*.ckpt
-models/*.pth
-models/*.bin
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-logs/
-*.err
-
-# Temporary files
-tmp/
-temp/
-cache/
+name: plateau_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python本体
+  - python=3.11
+  
+  # 地理空間データ処理
+  - gdal=3.8.*
+  - geopandas=0.14.*
+  - rasterio=1.3.*
+  - fiona=1.9.*
+  - shapely=2.0.*
+  - pyproj=3.6.*
+  - rtree=1.1.*
+  
+  # 可視化
+  - folium=0.15.*
+  - matplotlib=3.8.*
+  - plotly=5.18.*
+  - pyvista=0.43.*
+  
+  # データ処理
+  - pandas=2.1.*
+  - numpy=1.26.*
+  - scipy=1.11.*
+  
+  # 開発環境
+  - jupyterlab=4.0.*
+  - ipywidgets=8.1.*
+  - nodejs=20.*
+  
+  # 画像処理
+  - pillow=10.2.*
+  - opencv=4.9.*
+  
+  # Web/API
+  - requests=2.31.*
+  - fastapi=0.109.*
+  - uvicorn=0.27.*
+  - aiofiles=23.2.*
+  
+  # pip依存パッケージ
+  - pip
+  - pip:
+    # 3D Tiles処理
+    - py3dtiles==7.0.0
+    
+    # 点群処理
+    - laspy==2.5.3
+    - open3d==0.18.0
+    
+    # PLATEAUデータ処理
+    - pydeck==0.8.1
+    
+    # ユーティリティ
+    - python-dotenv==1.0.0
+    - tqdm==4.66.1
+    - typer==0.9.0
+    - rich==13.7.0
