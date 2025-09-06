@@ -1,0 +1,3534 @@
+Channels:
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/owner/miniconda3/envs/plateau_geo
+
+  added / updated specs:
+    - fiona=1.9
+    - gdal=3.9.1
+    - geopandas=1.0.1
+    - libgdal=3.9.1
+    - proj
+    - proj-data
+    - pyogrio=0.9.0
+    - shapely=2
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    aws-c-auth-0.8.0           |      hb88c0a9_10         105 KB  conda-forge
+    aws-c-cal-0.8.0            |       hecf86a2_2          46 KB  conda-forge
+    aws-c-common-0.10.3        |       hb9d3cd8_0         232 KB  conda-forge
+    aws-c-compression-0.3.0    |       hf42f96a_2          19 KB  conda-forge
+    aws-c-event-stream-0.5.0   |       h1ffe551_7          52 KB  conda-forge
+    aws-c-http-0.9.1           |       hab05fe4_2         192 KB  conda-forge
+    aws-c-io-0.15.2            |       hdeadb07_2         156 KB  conda-forge
+    aws-c-mqtt-0.11.0          |       h7bd072d_8         190 KB  conda-forge
+    aws-c-s3-0.7.4             |       h3a84f74_0         111 KB  conda-forge
+    aws-c-sdkutils-0.2.1       |       hf42f96a_1          54 KB  conda-forge
+    aws-checksums-0.2.2        |       hf42f96a_1          71 KB  conda-forge
+    aws-crt-cpp-0.29.6         |       h159bff8_2         347 KB  conda-forge
+    aws-sdk-cpp-1.11.449       |       h5558e3c_4         2.8 MB  conda-forge
+    fiona-1.9.6                |  py311h3c39baf_4         968 KB  conda-forge
+    fmt-11.0.2                 |       h07f6e7f_1         193 KB  conda-forge
+    folium-0.20.0              |     pyhd8ed1ab_0          81 KB  conda-forge
+    gdal-3.9.1                 | py311hb17e472_13         1.6 MB  conda-forge
+    geos-3.12.2                |       he02047a_1         1.7 MB  conda-forge
+    libabseil-20240722.0       | cxx17_hbbce691_4         1.3 MB  conda-forge
+    libarchive-3.7.7           |       hadbb8c3_0         854 KB  conda-forge
+    libblas-3.9.0              |35_h59b9bed_openblas          17 KB  conda-forge
+    libcblas-3.9.0             |35_he106b2a_openblas          17 KB  conda-forge
+    libdeflate-1.21            |       h4bc722e_0          69 KB  conda-forge
+    libgdal-3.9.1              |      ha770c72_13         413 KB  conda-forge
+    libgdal-core-3.9.1         |      hba09cee_13         9.8 MB  conda-forge
+    libgdal-fits-3.9.1         |      hdd6600c_13         465 KB  conda-forge
+    libgdal-grib-3.9.1         |      h5f34788_13         705 KB  conda-forge
+    libgdal-hdf4-3.9.1         |      ha39a594_13         564 KB  conda-forge
+    libgdal-hdf5-3.9.1         |      ha2ed5f0_13         625 KB  conda-forge
+    libgdal-jp2openjpeg-3.9.1  |      h2ebfdf0_13         457 KB  conda-forge
+    libgdal-kea-3.9.1          |      h2b45729_13         469 KB  conda-forge
+    libgdal-netcdf-3.9.1       |      h94e7027_13         715 KB  conda-forge
+    libgdal-pdf-3.9.1          |      h0fa2cb4_13         649 KB  conda-forge
+    libgdal-pg-3.9.1           |      he047751_13         513 KB  conda-forge
+    libgdal-postgisraster-3.9.1|      he047751_13         468 KB  conda-forge
+    libgdal-tiledb-3.9.1       |      h9d8aadb_13         657 KB  conda-forge
+    libgdal-xls-3.9.1          |      h062f1c4_13         424 KB  conda-forge
+    libgoogle-cloud-2.31.0     |       h804f50b_0         1.2 MB  conda-forge
+    libgoogle-cloud-storage-2.31.0|       h0121fbd_0         764 KB  conda-forge
+    libgrpc-1.67.1             |       hc2c308b_0         7.0 MB  conda-forge
+    liblapack-3.9.0            |35_h7ac8fdf_openblas          17 KB  conda-forge
+    libnetcdf-4.9.2            |nompi_h00e09a9_116         815 KB  conda-forge
+    libopenblas-0.3.30         |pthreads_h94d23a6_2         5.7 MB  conda-forge
+    libpq-16.10                |       h1cdf469_1         2.4 MB  conda-forge
+    libprotobuf-5.28.2         |       h5b01275_0         2.8 MB  conda-forge
+    libre2-11-2024.07.02       |       hbbce691_2         205 KB  conda-forge
+    librttopo-1.1.0            |      hc670b87_16         226 KB  conda-forge
+    libspatialite-5.1.0        |       h15fa968_9         3.3 MB  conda-forge
+    libtiff-4.7.0              |       h6565414_0         418 KB  conda-forge
+    mapclassify-2.10.0         |     pyhd8ed1ab_1         792 KB  conda-forge
+    matplotlib-base-3.10.6     |  py311h0f3be63_1         8.1 MB  conda-forge
+    numpy-2.3.2                |  py311h2e04523_2         9.0 MB  conda-forge
+    pandas-2.3.2               |  py311hed34c8f_0        14.6 MB  conda-forge
+    pillow-11.3.0              |  py311h3df08e7_1        40.5 MB  conda-forge
+    poppler-24.08.0            |       h47131b8_1         1.8 MB  conda-forge
+    postgresql-16.10           |       hd526058_1         5.1 MB  conda-forge
+    re2-2024.07.02             |       h9925aae_2          26 KB  conda-forge
+    requests-2.32.5            |     pyhd8ed1ab_0          58 KB  conda-forge
+    s2n-1.5.9                  |       h0fd0ee4_0         347 KB  conda-forge
+    scipy-1.16.1               |  py311h1e13796_1        16.5 MB  conda-forge
+    shapely-2.0.6              |  py311h9036bbf_1         568 KB  conda-forge
+    spdlog-1.14.1              |       hed91bc2_1         191 KB  conda-forge
+    tiledb-2.25.0              |      hc2f982c_27         4.3 MB  conda-forge
+    xerces-c-3.2.5             |       h988505b_2         1.6 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       156.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  attrs              conda-forge/noarch::attrs-25.3.0-pyh71513ae_0 
+  aws-c-auth         conda-forge/linux-64::aws-c-auth-0.8.0-hb88c0a9_10 
+  aws-c-cal          conda-forge/linux-64::aws-c-cal-0.8.0-hecf86a2_2 
+  aws-c-common       conda-forge/linux-64::aws-c-common-0.10.3-hb9d3cd8_0 
+  aws-c-compression  conda-forge/linux-64::aws-c-compression-0.3.0-hf42f96a_2 
+  aws-c-event-stream conda-forge/linux-64::aws-c-event-stream-0.5.0-h1ffe551_7 
+  aws-c-http         conda-forge/linux-64::aws-c-http-0.9.1-hab05fe4_2 
+  aws-c-io           conda-forge/linux-64::aws-c-io-0.15.2-hdeadb07_2 
+  aws-c-mqtt         conda-forge/linux-64::aws-c-mqtt-0.11.0-h7bd072d_8 
+  aws-c-s3           conda-forge/linux-64::aws-c-s3-0.7.4-h3a84f74_0 
+  aws-c-sdkutils     conda-forge/linux-64::aws-c-sdkutils-0.2.1-hf42f96a_1 
+  aws-checksums      conda-forge/linux-64::aws-checksums-0.2.2-hf42f96a_1 
+  aws-crt-cpp        conda-forge/linux-64::aws-crt-cpp-0.29.6-h159bff8_2 
+  aws-sdk-cpp        conda-forge/linux-64::aws-sdk-cpp-1.11.449-h5558e3c_4 
+  azure-core-cpp     conda-forge/linux-64::azure-core-cpp-1.14.0-h5cfcd09_0 
+  azure-identity-cpp conda-forge/linux-64::azure-identity-cpp-1.10.0-h113e628_0 
+  azure-storage-blo~ conda-forge/linux-64::azure-storage-blobs-cpp-12.13.0-h3cf044e_1 
+  azure-storage-com~ conda-forge/linux-64::azure-storage-common-cpp-12.8.0-h736e048_1 
+  blosc              conda-forge/linux-64::blosc-1.21.6-hef167b5_0 
+  branca             conda-forge/noarch::branca-0.8.1-pyhd8ed1ab_0 
+  brotli             conda-forge/linux-64::brotli-1.1.0-hb03c661_4 
+  brotli-bin         conda-forge/linux-64::brotli-bin-1.1.0-hb03c661_4 
+  brotli-python      conda-forge/linux-64::brotli-python-1.1.0-py311h1ddb823_4 
+  c-ares             conda-forge/linux-64::c-ares-1.34.5-hb9d3cd8_0 
+  cairo              conda-forge/linux-64::cairo-1.18.4-h3394656_0 
+  certifi            conda-forge/noarch::certifi-2025.8.3-pyhd8ed1ab_0 
+  cffi               conda-forge/linux-64::cffi-1.17.1-py311h5b438cf_1 
+  cfitsio            conda-forge/linux-64::cfitsio-4.4.1-ha728647_2 
+  charset-normalizer conda-forge/noarch::charset-normalizer-3.4.3-pyhd8ed1ab_0 
+  click              conda-forge/noarch::click-8.2.1-pyh707e725_0 
+  click-plugins      conda-forge/noarch::click-plugins-1.1.1.2-pyhd8ed1ab_0 
+  cligj              conda-forge/noarch::cligj-0.7.2-pyhd8ed1ab_2 
+  contourpy          conda-forge/linux-64::contourpy-1.3.3-py311hdf67eae_2 
+  cycler             conda-forge/noarch::cycler-0.12.1-pyhd8ed1ab_1 
+  fiona              conda-forge/linux-64::fiona-1.9.6-py311h3c39baf_4 
+  fmt                conda-forge/linux-64::fmt-11.0.2-h07f6e7f_1 
+  folium             conda-forge/noarch::folium-0.20.0-pyhd8ed1ab_0 
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0 
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0 
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0 
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_3 
+  fontconfig         conda-forge/linux-64::fontconfig-2.15.0-h7e30c49_1 
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0 
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-0 
+  fonttools          conda-forge/linux-64::fonttools-4.59.2-py311h3778330_0 
+  freetype           conda-forge/linux-64::freetype-2.13.3-ha770c72_1 
+  freexl             conda-forge/linux-64::freexl-2.0.0-h9dce30a_2 
+  gdal               conda-forge/linux-64::gdal-3.9.1-py311hb17e472_13 
+  geopandas          conda-forge/noarch::geopandas-1.0.1-pyhd8ed1ab_3 
+  geopandas-base     conda-forge/noarch::geopandas-base-1.0.1-pyha770c72_3 
+  geos               conda-forge/linux-64::geos-3.12.2-he02047a_1 
+  geotiff            conda-forge/linux-64::geotiff-1.7.3-hf7fa9e8_2 
+  giflib             conda-forge/linux-64::giflib-5.2.2-hd590300_0 
+  h2                 conda-forge/noarch::h2-4.3.0-pyhcf101f3_0 
+  hdf4               conda-forge/linux-64::hdf4-4.2.15-h2a13503_7 
+  hdf5               conda-forge/linux-64::hdf5-1.14.3-nompi_h2d575fe_109 
+  hpack              conda-forge/noarch::hpack-4.1.0-pyhd8ed1ab_0 
+  hyperframe         conda-forge/noarch::hyperframe-6.1.0-pyhd8ed1ab_0 
+  icu                conda-forge/linux-64::icu-75.1-he02047a_0 
+  idna               conda-forge/noarch::idna-3.10-pyhd8ed1ab_1 
+  jinja2             conda-forge/noarch::jinja2-3.1.6-pyhd8ed1ab_0 
+  joblib             conda-forge/noarch::joblib-1.5.2-pyhd8ed1ab_0 
+  json-c             conda-forge/linux-64::json-c-0.17-h1220068_1 
+  kealib             conda-forge/linux-64::kealib-1.5.3-hf8d3e68_2 
+  keyutils           conda-forge/linux-64::keyutils-1.6.3-hb9d3cd8_0 
+  kiwisolver         conda-forge/linux-64::kiwisolver-1.4.9-py311h724c32c_1 
+  krb5               conda-forge/linux-64::krb5-1.21.3-h659f571_0 
+  lcms2              conda-forge/linux-64::lcms2-2.17-h717163a_0 
+  lerc               conda-forge/linux-64::lerc-4.0.0-h0aef613_1 
+  libabseil          conda-forge/linux-64::libabseil-20240722.0-cxx17_hbbce691_4 
+  libaec             conda-forge/linux-64::libaec-1.1.4-h3f801dc_0 
+  libarchive         conda-forge/linux-64::libarchive-3.7.7-hadbb8c3_0 
+  libblas            conda-forge/linux-64::libblas-3.9.0-35_h59b9bed_openblas 
+  libbrotlicommon    conda-forge/linux-64::libbrotlicommon-1.1.0-hb03c661_4 
+  libbrotlidec       conda-forge/linux-64::libbrotlidec-1.1.0-hb03c661_4 
+  libbrotlienc       conda-forge/linux-64::libbrotlienc-1.1.0-hb03c661_4 
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-35_he106b2a_openblas 
+  libcrc32c          conda-forge/linux-64::libcrc32c-1.1.2-h9c3ff4c_0 
+  libcurl            conda-forge/linux-64::libcurl-8.14.1-h332b0f4_0 
+  libdeflate         conda-forge/linux-64::libdeflate-1.21-h4bc722e_0 
+  libedit            conda-forge/linux-64::libedit-3.1.20250104-pl5321h7949ede_0 
+  libev              conda-forge/linux-64::libev-4.33-hd590300_2 
+  libfreetype        conda-forge/linux-64::libfreetype-2.13.3-ha770c72_1 
+  libfreetype6       conda-forge/linux-64::libfreetype6-2.13.3-h48d6fc4_1 
+  libgdal            conda-forge/linux-64::libgdal-3.9.1-ha770c72_13 
+  libgdal-core       conda-forge/linux-64::libgdal-core-3.9.1-hba09cee_13 
+  libgdal-fits       conda-forge/linux-64::libgdal-fits-3.9.1-hdd6600c_13 
+  libgdal-grib       conda-forge/linux-64::libgdal-grib-3.9.1-h5f34788_13 
+  libgdal-hdf4       conda-forge/linux-64::libgdal-hdf4-3.9.1-ha39a594_13 
+  libgdal-hdf5       conda-forge/linux-64::libgdal-hdf5-3.9.1-ha2ed5f0_13 
+  libgdal-jp2openjp~ conda-forge/linux-64::libgdal-jp2openjpeg-3.9.1-h2ebfdf0_13 
+  libgdal-kea        conda-forge/linux-64::libgdal-kea-3.9.1-h2b45729_13 
+  libgdal-netcdf     conda-forge/linux-64::libgdal-netcdf-3.9.1-h94e7027_13 
+  libgdal-pdf        conda-forge/linux-64::libgdal-pdf-3.9.1-h0fa2cb4_13 
+  libgdal-pg         conda-forge/linux-64::libgdal-pg-3.9.1-he047751_13 
+  libgdal-postgisra~ conda-forge/linux-64::libgdal-postgisraster-3.9.1-he047751_13 
+  libgdal-tiledb     conda-forge/linux-64::libgdal-tiledb-3.9.1-h9d8aadb_13 
+  libgdal-xls        conda-forge/linux-64::libgdal-xls-3.9.1-h062f1c4_13 
+  libgfortran        conda-forge/linux-64::libgfortran-15.1.0-h69a702a_5 
+  libgfortran5       conda-forge/linux-64::libgfortran5-15.1.0-hcea5267_5 
+  libglib            conda-forge/linux-64::libglib-2.84.1-h2ff4ddf_0 
+  libgoogle-cloud    conda-forge/linux-64::libgoogle-cloud-2.31.0-h804f50b_0 
+  libgoogle-cloud-s~ conda-forge/linux-64::libgoogle-cloud-storage-2.31.0-h0121fbd_0 
+  libgrpc            conda-forge/linux-64::libgrpc-1.67.1-hc2c308b_0 
+  libiconv           conda-forge/linux-64::libiconv-1.18-h3b78370_2 
+  libjpeg-turbo      conda-forge/linux-64::libjpeg-turbo-3.1.0-hb9d3cd8_0 
+  libkml             conda-forge/linux-64::libkml-1.3.0-hf539b9f_1021 
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-35_h7ac8fdf_openblas 
+  liblzma-devel      conda-forge/linux-64::liblzma-devel-5.8.1-hb9d3cd8_2 
+  libnetcdf          conda-forge/linux-64::libnetcdf-4.9.2-nompi_h00e09a9_116 
+  libnghttp2         conda-forge/linux-64::libnghttp2-1.67.0-had1ee68_0 
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.30-pthreads_h94d23a6_2 
+  libpng             conda-forge/linux-64::libpng-1.6.50-h421ea60_1 
+  libpq              conda-forge/linux-64::libpq-16.10-h1cdf469_1 
+  libprotobuf        conda-forge/linux-64::libprotobuf-5.28.2-h5b01275_0 
+  libre2-11          conda-forge/linux-64::libre2-11-2024.07.02-hbbce691_2 
+  librttopo          conda-forge/linux-64::librttopo-1.1.0-hc670b87_16 
+  libspatialite      conda-forge/linux-64::libspatialite-5.1.0-h15fa968_9 
+  libssh2            conda-forge/linux-64::libssh2-1.11.1-hcf80075_0 
+  libstdcxx          conda-forge/linux-64::libstdcxx-15.1.0-h8f9b012_5 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-15.1.0-h4852527_5 
+  libtiff            conda-forge/linux-64::libtiff-4.7.0-h6565414_0 
+  libwebp-base       conda-forge/linux-64::libwebp-base-1.6.0-hd42ef1d_0 
+  libxcb             conda-forge/linux-64::libxcb-1.17.0-h8a09558_0 
+  libxml2            conda-forge/linux-64::libxml2-2.13.8-h04c0eec_1 
+  libzip             conda-forge/linux-64::libzip-1.11.2-h6991a6a_0 
+  lz4-c              conda-forge/linux-64::lz4-c-1.9.4-hcb278e6_0 
+  lzo                conda-forge/linux-64::lzo-2.10-h280c20c_1002 
+  mapclassify        conda-forge/noarch::mapclassify-2.10.0-pyhd8ed1ab_1 
+  markupsafe         conda-forge/linux-64::markupsafe-3.0.2-py311h2dc5d0c_1 
+  matplotlib-base    conda-forge/linux-64::matplotlib-base-3.10.6-py311h0f3be63_1 
+  minizip            conda-forge/linux-64::minizip-4.0.10-h05a5f5f_0 
+  munkres            conda-forge/noarch::munkres-1.1.4-pyhd8ed1ab_1 
+  networkx           conda-forge/noarch::networkx-3.5-pyhe01879c_0 
+  nspr               conda-forge/linux-64::nspr-4.37-h29cc59b_0 
+  nss                conda-forge/linux-64::nss-3.115-hc3c8bcf_0 
+  numpy              conda-forge/linux-64::numpy-2.3.2-py311h2e04523_2 
+  openjpeg           conda-forge/linux-64::openjpeg-2.5.3-h55fea9a_1 
+  packaging          conda-forge/noarch::packaging-25.0-pyh29332c3_1 
+  pandas             conda-forge/linux-64::pandas-2.3.2-py311hed34c8f_0 
+  pcre2              conda-forge/linux-64::pcre2-10.44-hc749103_2 
+  pillow             conda-forge/linux-64::pillow-11.3.0-py311h3df08e7_1 
+  pixman             conda-forge/linux-64::pixman-0.46.4-h54a6638_1 
+  poppler            conda-forge/linux-64::poppler-24.08.0-h47131b8_1 
+  poppler-data       conda-forge/noarch::poppler-data-0.4.12-hd8ed1ab_0 
+  postgresql         conda-forge/linux-64::postgresql-16.10-hd526058_1 
+  proj               conda-forge/linux-64::proj-9.4.1-h54d7996_1 
+  proj-data          conda-forge/noarch::proj-data-1.22-h707e725_0 
+  pthread-stubs      conda-forge/linux-64::pthread-stubs-0.4-hb9d3cd8_1002 
+  pycparser          conda-forge/noarch::pycparser-2.22-pyh29332c3_1 
+  pyogrio            conda-forge/linux-64::pyogrio-0.9.0-py311hfc743a8_0 
+  pyparsing          conda-forge/noarch::pyparsing-3.2.3-pyhe01879c_2 
+  pyproj             conda-forge/linux-64::pyproj-3.6.1-py311h58d3061_9 
+  pysocks            conda-forge/noarch::pysocks-1.7.1-pyha55dd90_7 
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0.post0-pyhe01879c_2 
+  python-tzdata      conda-forge/noarch::python-tzdata-2025.2-pyhd8ed1ab_0 
+  python_abi         conda-forge/noarch::python_abi-3.11-8_cp311 
+  pytz               conda-forge/noarch::pytz-2025.2-pyhd8ed1ab_0 
+  qhull              conda-forge/linux-64::qhull-2020.2-h434a139_5 
+  re2                conda-forge/linux-64::re2-2024.07.02-h9925aae_2 
+  requests           conda-forge/noarch::requests-2.32.5-pyhd8ed1ab_0 
+  s2n                conda-forge/linux-64::s2n-1.5.9-h0fd0ee4_0 
+  scikit-learn       conda-forge/linux-64::scikit-learn-1.7.1-py311hc3e1efb_0 
+  scipy              conda-forge/linux-64::scipy-1.16.1-py311h1e13796_1 
+  shapely            conda-forge/linux-64::shapely-2.0.6-py311h9036bbf_1 
+  six                conda-forge/noarch::six-1.17.0-pyhe01879c_1 
+  snappy             conda-forge/linux-64::snappy-1.2.2-h03e3b7b_0 
+  spdlog             conda-forge/linux-64::spdlog-1.14.1-hed91bc2_1 
+  sqlite             conda-forge/linux-64::sqlite-3.50.4-hbc0de68_0 
+  threadpoolctl      conda-forge/noarch::threadpoolctl-3.6.0-pyhecae5ae_0 
+  tiledb             conda-forge/linux-64::tiledb-2.25.0-hc2f982c_27 
+  tzcode             conda-forge/linux-64::tzcode-2025b-hb9d3cd8_0 
+  unicodedata2       conda-forge/linux-64::unicodedata2-16.0.0-py311h49ec1c0_1 
+  uriparser          conda-forge/linux-64::uriparser-0.9.8-hac33072_0 
+  urllib3            conda-forge/noarch::urllib3-2.5.0-pyhd8ed1ab_0 
+  xerces-c           conda-forge/linux-64::xerces-c-3.2.5-h988505b_2 
+  xorg-libice        conda-forge/linux-64::xorg-libice-1.1.2-hb9d3cd8_0 
+  xorg-libsm         conda-forge/linux-64::xorg-libsm-1.2.6-he73a12e_0 
+  xorg-libx11        conda-forge/linux-64::xorg-libx11-1.8.12-h4f16b4b_0 
+  xorg-libxau        conda-forge/linux-64::xorg-libxau-1.0.12-hb9d3cd8_0 
+  xorg-libxdmcp      conda-forge/linux-64::xorg-libxdmcp-1.1.5-hb9d3cd8_0 
+  xorg-libxext       conda-forge/linux-64::xorg-libxext-1.3.6-hb9d3cd8_0 
+  xorg-libxrender    conda-forge/linux-64::xorg-libxrender-0.9.12-hb9d3cd8_0 
+  xyzservices        conda-forge/noarch::xyzservices-2025.4.0-pyhd8ed1ab_0 
+  xz                 conda-forge/linux-64::xz-5.8.1-hbcc6ac9_2 
+  xz-gpl-tools       conda-forge/linux-64::xz-gpl-tools-5.8.1-hbcc6ac9_2 
+  xz-tools           conda-forge/linux-64::xz-tools-5.8.1-hb9d3cd8_2 
+  zlib               conda-forge/linux-64::zlib-1.3.1-hb9d3cd8_2 
+  zstandard          conda-forge/linux-64::zstandard-0.24.0-py311h4854a17_1 
+  zstd               conda-forge/linux-64::zstd-1.5.7-hb8e6e7a_2 
+
+
+
+Downloading and Extracting Packages: ...working...pillow-11.3.0        | 40.5 MB   |            |   0% 
+scipy-1.16.1         | 16.5 MB   |            |   0% [A
+
+pandas-2.3.2         | 14.6 MB   |            |   0% [A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    |            |   0% [A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    |            |   0% [A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libspatialite-5.1.0  | 3.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-5.28.2   | 2.8 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libpq-16.10          | 2.4 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+geos-3.12.2          | 1.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gdal-3.9.1           | 1.6 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xerces-c-3.2.5       | 1.6 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libabseil-20240722.0 | 1.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    |            |   0% [A[A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | #2         |  12% [A[A[A[A
+scipy-1.16.1         | 16.5 MB   |            |   0% [Apillow-11.3.0        | 40.5 MB   |            |   0% 
+
+pandas-2.3.2         | 14.6 MB   |            |   0% [A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | ##2        |  22% [A[A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | ###4       |  34% [A[A[A[A
+
+pandas-2.3.2         | 14.6 MB   |            |   1% [A[A
+scipy-1.16.1         | 16.5 MB   |            |   1% [Apillow-11.3.0        | 40.5 MB   |            |   0% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    |            |   0% [A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | ####3      |  44% [A[A[A[A
+
+pandas-2.3.2         | 14.6 MB   | 1          |   2% [A[A
+scipy-1.16.1         | 16.5 MB   | 1          |   1% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | 1          |   1% [A[A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | 2          |   3% [A[A[Apillow-11.3.0        | 40.5 MB   |            |   1% 
+scipy-1.16.1         | 16.5 MB   | 2          |   2% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | 4          |   5% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | 2          |   3% [A[Apillow-11.3.0        | 40.5 MB   |            |   1% 
+
+
+
+numpy-2.3.2          | 9.0 MB    | #####2     |  53% [A[A[A[A
+scipy-1.16.1         | 16.5 MB   | 4          |   4% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | 6          |   6% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | 3          |   4% [A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | 8          |   8% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | 7          |   7% [A[Apillow-11.3.0        | 40.5 MB   | 1          |   1% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #          |  10% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | #3         |  13% [A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #1         |  12% [A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | #####9     |  59% [A[A[A[A
+scipy-1.16.1         | 16.5 MB   | 6          |   6% [Apillow-11.3.0        | 40.5 MB   | 2          |   2% 
+
+pandas-2.3.2         | 14.6 MB   | #7         |  18% [A[A
+scipy-1.16.1         | 16.5 MB   | 8          |   8% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #2         |  13% [A[A[Apillow-11.3.0        | 40.5 MB   | 3          |   4% 
+
+pandas-2.3.2         | 14.6 MB   | ##         |  21% [A[A
+scipy-1.16.1         | 16.5 MB   | #          |  10% [Apillow-11.3.0        | 40.5 MB   | 5          |   6% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #4         |  14% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | ###7       |  37% [A[A
+scipy-1.16.1         | 16.5 MB   | #1         |  12% [Apillow-11.3.0        | 40.5 MB   | 6          |   7% 
+
+pandas-2.3.2         | 14.6 MB   | ####2      |  42% [A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #5         |  16% [A[A[A
+scipy-1.16.1         | 16.5 MB   | #2         |  13% [Apillow-11.3.0        | 40.5 MB   | 7          |   8% 
+
+pandas-2.3.2         | 14.6 MB   | ####6      |  46% [A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | ######4    |  64% [A[A[A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #6         |  17% [A[A[Apillow-11.3.0        | 40.5 MB   | 8          |   8% 
+scipy-1.16.1         | 16.5 MB   | #3         |  14% [A
+
+pandas-2.3.2         | 14.6 MB   | #####      |  50% [A[Apillow-11.3.0        | 40.5 MB   | 9          |   9% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #7         |  18% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | #####6     |  57% [A[A
+scipy-1.16.1         | 16.5 MB   | #4         |  14% [Apillow-11.3.0        | 40.5 MB   | #          |  11% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #8         |  19% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | ######     |  61% [A[A
+scipy-1.16.1         | 16.5 MB   | #6         |  16% [Apillow-11.3.0        | 40.5 MB   | #1         |  11% 
+
+pandas-2.3.2         | 14.6 MB   | ######5    |  66% [A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #9         |  20% [A[A[A
+scipy-1.16.1         | 16.5 MB   | #7         |  18% [A
+
+pandas-2.3.2         | 14.6 MB   | #######    |  70% [A[Apillow-11.3.0        | 40.5 MB   | #2         |  12% 
+
+
+
+numpy-2.3.2          | 9.0 MB    | ######8    |  68% [A[A[A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ##         |  21% [A[A[A
+scipy-1.16.1         | 16.5 MB   | #8         |  19% [A
+
+pandas-2.3.2         | 14.6 MB   | #######4   |  74% [A[Apillow-11.3.0        | 40.5 MB   | #3         |  13% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ##1        |  22% [A[A[A
+scipy-1.16.1         | 16.5 MB   | ##         |  20% [A
+
+pandas-2.3.2         | 14.6 MB   | #######8   |  78% [A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ##2        |  23% [A[A[Apillow-11.3.0        | 40.5 MB   | #4         |  14% 
+scipy-1.16.1         | 16.5 MB   | ##1        |  21% [A
+
+pandas-2.3.2         | 14.6 MB   | ########5  |  85% [A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ##3        |  24% [A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | #######    |  71% [A[A[A[Apillow-11.3.0        | 40.5 MB   | #5         |  15% 
+scipy-1.16.1         | 16.5 MB   | ##2        |  23% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ##4        |  25% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | #########  |  90% [A[Apillow-11.3.0        | 40.5 MB   | #6         |  16% 
+scipy-1.16.1         | 16.5 MB   | ##3        |  24% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ##5        |  26% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | #########4 |  94% [A[A
+scipy-1.16.1         | 16.5 MB   | ##4        |  25% [A
+
+
+
+numpy-2.3.2          | 9.0 MB    | #######3   |  73% [A[A[A[Apillow-11.3.0        | 40.5 MB   | #7         |  17% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ##6        |  27% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | #########8 |  99% [A[A
+scipy-1.16.1         | 16.5 MB   | ##5        |  26% [Apillow-11.3.0        | 40.5 MB   | #7         |  18% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ##8        |  28% [A[A[A
+
+pandas-2.3.2         | 14.6 MB   | ########## | 100% [A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | #######4   |  75% [A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ##6        |  27% [Apillow-11.3.0        | 40.5 MB   | #8         |  19% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ###1       |  31% [A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    |            |   0% [A[A[A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | #######7   |  77% [A[A[A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ###3       |  34% [A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | #######9   |  79% [A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | 2          |   3% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #9         |  19% 
+scipy-1.16.1         | 16.5 MB   | ##7        |  28% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ###6       |  37% [A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | ########1  |  81% [A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ##9        |  29% [A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | 4          |   4% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ##         |  20% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ####       |  41% [A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | ########3  |  84% [A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ###        |  30% [Apillow-11.3.0        | 40.5 MB   | ##1        |  21% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #1         |  12% [A[A[A[A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ####4      |  44% [A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | ########6  |  86% [A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ###1       |  32% [Apillow-11.3.0        | 40.5 MB   | ##1        |  22% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ####7      |  48% [A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | ########9  |  89% [A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ###2       |  33% [Apillow-11.3.0        | 40.5 MB   | ##2        |  23% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #####1     |  51% [A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #4         |  15% [A[A[A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | #########2 |  93% [A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ###3       |  34% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #####4     |  55% [A[A[Apillow-11.3.0        | 40.5 MB   | ##3        |  23% 
+
+
+
+numpy-2.3.2          | 9.0 MB    | #########5 |  96% [A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ###4       |  35% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #####8     |  58% [A[A[A
+
+
+
+numpy-2.3.2          | 9.0 MB    | #########8 |  99% [A[A[A[Apillow-11.3.0        | 40.5 MB   | ##4        |  24% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #7         |  17% [A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ###5       |  36% [A
+
+
+
+numpy-2.3.2          | 9.0 MB    | ########## | 100% [A[A[A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ######2    |  62% [A[A[Apillow-11.3.0        | 40.5 MB   | ##4        |  25% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    |            |   0% [A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ###6       |  37% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ######7    |  67% [A[A[Apillow-11.3.0        | 40.5 MB   | ##5        |  26% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | 3          |   4% [A[A[A[A[A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #######1   |  72% [A[A[A
+scipy-1.16.1         | 16.5 MB   | ###7       |  38% [A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #9         |  19% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ##6        |  26% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | 6          |   7% [A[A[A[A[A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #######6   |  76% [A[A[A
+scipy-1.16.1         | 16.5 MB   | ###8       |  39% [Apillow-11.3.0        | 40.5 MB   | ##6        |  27% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | 9          |  10% [A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ###9       |  39% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ########   |  81% [A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ##         |  21% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ##7        |  28% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | #3         |  13% [A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ####       |  41% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ########4  |  85% [A[A[Apillow-11.3.0        | 40.5 MB   | ##8        |  28% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | #6         |  17% [A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ##2        |  22% [A[A[A[A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ########9  |  89% [A[A[A
+scipy-1.16.1         | 16.5 MB   | ####1      |  42% [Apillow-11.3.0        | 40.5 MB   | ##8        |  29% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ##         |  20% [A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ##3        |  23% [A[A[A[A[A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #########3 |  93% [A[A[A
+scipy-1.16.1         | 16.5 MB   | ####2      |  43% [Apillow-11.3.0        | 40.5 MB   | ##9        |  30% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ##3        |  24% [A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ####3      |  44% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | #########7 |  97% [A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ##4        |  25% [A[A[A[A[A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ##7        |  27% [A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###        |  30% 
+
+pandas-2.3.2         | 14.6 MB   | ########## | 100% [A[A
+scipy-1.16.1         | 16.5 MB   | ####5      |  45% [A
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ########## | 100% [A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ##5        |  26% [A[A[A[A[A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ###2       |  32% [A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###1       |  31% 
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    |            |   0% [A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ####6      |  46% [A
+
+
+
+numpy-2.3.2          | 9.0 MB    | ########## | 100% [A[A[A[A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ###8       |  38% [A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###1       |  32% 
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | 5          |   5% [A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ##6        |  27% [A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ####7      |  48% [A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ####2      |  43% [A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #          |  10% [A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###2       |  32% 
+
+
+libgdal-core-3.9.1   | 9.8 MB    | ########## | 100% [A[A[A
+scipy-1.16.1         | 16.5 MB   | ####8      |  49% [A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ##7        |  28% [A[A[A[A[A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ####7      |  48% [A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###3       |  33% 
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #4         |  15% [A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | #####      |  50% [A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | #####2     |  53% [A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #9         |  19% [A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###3       |  34% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ##8        |  29% [A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | #####1     |  52% [A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | #####7     |  57% [A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ##3        |  24% [A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###4       |  34% 
+scipy-1.16.1         | 16.5 MB   | #####3     |  53% [A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ######2    |  62% [A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ##8        |  28% [A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###4       |  35% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ##9        |  29% [A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | #####4     |  55% [A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ######6    |  67% [A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ###3       |  33% [A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###5       |  36% 
+scipy-1.16.1         | 16.5 MB   | #####6     |  56% [A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | #######1   |  71% [A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ###        |  30% [A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ###8       |  38% [A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###6       |  36% 
+scipy-1.16.1         | 16.5 MB   | #####8     |  58% [A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | #######6   |  76% [A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ####3      |  43% [A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ###        |  31% [A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | #####9     |  60% [Apillow-11.3.0        | 40.5 MB   | ###6       |  37% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ########   |  81% [A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ####7      |  48% [A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ######1    |  62% [Apillow-11.3.0        | 40.5 MB   | ###7       |  37% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ###1       |  31% [A[A[A[A[A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ########5  |  85% [A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #####2     |  52% [A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ######3    |  63% [Apillow-11.3.0        | 40.5 MB   | ###7       |  38% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | #########  |  90% [A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ###2       |  32% [A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #####7     |  57% [A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ######5    |  65% [Apillow-11.3.0        | 40.5 MB   | ###8       |  38% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | #########4 |  95% [A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ###3       |  33% [A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ######1    |  62% [A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ######7    |  67% [Apillow-11.3.0        | 40.5 MB   | ###8       |  39% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | #########9 |  99% [A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ######6    |  66% [A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ######9    |  69% [A
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ###4       |  35% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ###9       |  40% 
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #######2   |  72% [A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | #######1   |  72% [A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ###5       |  36% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####       |  40% 
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #######8   |  79% [A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | #######3   |  74% [A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ###7       |  37% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####       |  41% 
+
+
+
+
+
+libgrpc-1.67.1       | 7.0 MB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | 4          |   5% [A[A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | #######6   |  76% [A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ########4  |  84% [A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####1      |  41% 
+scipy-1.16.1         | 16.5 MB   | #######8   |  78% [A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | 9          |   9% [A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ###8       |  38% [A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ########9  |  90% [A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####1      |  42% 
+scipy-1.16.1         | 16.5 MB   | ########   |  81% [A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | #3         |  13% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #########4 |  95% [A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ###9       |  40% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####2      |  42% 
+scipy-1.16.1         | 16.5 MB   | ########3  |  83% [A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | #6         |  17% [A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ####       |  41% [A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | #########9 | 100% [A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####2      |  43% 
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ########## | 100% [A[A[A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ########5  |  86% [A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | ##         |  20% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.7 MB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ####1      |  42% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####3      |  43% 
+scipy-1.16.1         | 16.5 MB   | ########8  |  88% [A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | ##5        |  26% [A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####4      |  44% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ####3      |  43% [A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | #########1 |  91% [A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | ###3       |  33% [A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####4      |  45% 
+scipy-1.16.1         | 16.5 MB   | #########3 |  94% [A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | ####       |  41% [A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ####4      |  44% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####5      |  45% 
+scipy-1.16.1         | 16.5 MB   | #########6 |  97% [A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | ####7      |  48% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ####5      |  46% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####5      |  46% 
+scipy-1.16.1         | 16.5 MB   | #########9 |  99% [A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | #####3     |  54% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | 3          |   4% [A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ####6      |  47% [A[A[A[A[A
+scipy-1.16.1         | 16.5 MB   | ########## | 100% [Apillow-11.3.0        | 40.5 MB   | ####6      |  46% 
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | ######2    |  63% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | #          |  10% [A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####7      |  47% 
+
+
+
+
+
+
+
+
+
+libspatialite-5.1.0  | 3.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | #######2   |  73% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | #6         |  17% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libspatialite-5.1.0  | 3.3 MB    | 4          |   5% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ####7      |  48% [A[A[A[A[A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | ########   |  80% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ##1        |  22% [A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####7      |  48% 
+
+
+
+
+
+
+
+
+
+libspatialite-5.1.0  | 3.3 MB    | #8         |  18% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ##5        |  26% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | ########7  |  87% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libspatialite-5.1.0  | 3.3 MB    | ###2       |  32% [A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####8      |  48% 
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ###1       |  31% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | #########4 |  94% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libspatialite-5.1.0  | 3.3 MB    | ####9      |  49% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ####8      |  49% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ####9      |  49% 
+
+
+
+
+
+
+
+
+
+libspatialite-5.1.0  | 3.3 MB    | #######3   |  74% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ###5       |  36% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ####9      |  50% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####      |  50% 
+
+
+
+
+
+
+
+
+
+libspatialite-5.1.0  | 3.3 MB    | #########1 |  92% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ####       |  40% [A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####      |  50% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libspatialite-5.1.0  | 3.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####      |  51% 
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ####6      |  47% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libspatialite-5.1.0  | 3.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-5.28.2   | 2.8 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####1     |  51% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | #2         |  13% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | #####6     |  56% [A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####1     |  51% 
+scipy-1.16.1         | 16.5 MB   | ########## | 100% [A
+
+
+
+
+
+
+
+postgresql-16.10     | 5.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | ##1        |  21% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-5.28.2   | 2.8 MB    | 8          |   9% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ######2    |  63% [A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####1     |  52% 
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | ##9        |  29% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####1     |  52% [A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ######8    |  69% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-5.28.2   | 2.8 MB    | ##7        |  28% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | ####       |  41% [A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####2     |  52% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####2     |  53% [A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | #######6   |  77% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-5.28.2   | 2.8 MB    | ####7      |  47% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | ####9      |  50% [A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####2     |  53% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####3     |  53% [A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ########3  |  83% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | #####8     |  58% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-5.28.2   | 2.8 MB    | ######3    |  63% [A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####3     |  54% 
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | #########  |  90% [A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####3     |  54% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | ######7    |  67% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-5.28.2   | 2.8 MB    | #######8   |  79% [A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####4     |  54% 
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | #########6 |  97% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-5.28.2   | 2.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####4     |  54% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | #######7   |  77% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-5.28.2   | 2.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####4     |  55% 
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | #########2 |  93% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libpq-16.10          | 2.4 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####5     |  55% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####5     |  55% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+geos-3.12.2          | 1.7 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libpq-16.10          | 2.4 MB    | #9         |  19% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+tiledb-2.25.0        | 4.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####6     |  56% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####5     |  56% 
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-5.28.2   | 2.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+geos-3.12.2          | 1.7 MB    | ##6        |  26% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    | #          |  10% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+geos-3.12.2          | 1.7 MB    | #####3     |  54% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####7     |  58% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####6     |  56% 
+
+
+
+
+
+
+
+
+
+
+
+
+libpq-16.10          | 2.4 MB    | ###7       |  38% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    | #9         |  20% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+geos-3.12.2          | 1.7 MB    | ########5  |  86% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####6     |  57% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####8     |  59% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+geos-3.12.2          | 1.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    | ###        |  30% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libpq-16.10          | 2.4 MB    | #####      |  50% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gdal-3.9.1           | 1.6 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####8     |  58% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    | ####2      |  43% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #####9     |  60% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libpq-16.10          | 2.4 MB    | #######1   |  72% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gdal-3.9.1           | 1.6 MB    | ##2        |  23% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    | #####4     |  54% [A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####8     |  59% 
+
+
+
+
+
+
+
+
+
+
+
+
+libpq-16.10          | 2.4 MB    | ########6  |  86% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ######1    |  61% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gdal-3.9.1           | 1.6 MB    | ####4      |  45% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    | ######7    |  67% [A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####9     |  59% 
+
+
+
+
+
+
+
+
+
+
+
+
+libpq-16.10          | 2.4 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gdal-3.9.1           | 1.6 MB    | ######8    |  69% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ######2    |  63% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    | ########   |  81% [A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #####9     |  60% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+geos-3.12.2          | 1.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xerces-c-3.2.5       | 1.6 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gdal-3.9.1           | 1.6 MB    | #########5 |  95% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gdal-3.9.1           | 1.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    | #########6 |  96% [A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######     |  60% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ######3    |  64% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libabseil-20240722.0 | 1.3 MB    | 1          |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xerces-c-3.2.5       | 1.6 MB    | #          |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######1    |  61% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libabseil-20240722.0 | 1.3 MB    | ####2      |  42% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ######4    |  65% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xerces-c-3.2.5       | 1.6 MB    | ###9       |  40% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libabseil-20240722.0 | 1.3 MB    | ########3  |  84% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ######5    |  66% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xerces-c-3.2.5       | 1.6 MB    | #####7     |  58% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######1    |  62% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gdal-3.9.1           | 1.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libabseil-20240722.0 | 1.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xerces-c-3.2.5       | 1.6 MB    | #########4 |  94% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######2    |  63% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xerces-c-3.2.5       | 1.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ######7    |  67% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.449 | 2.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######3    |  63% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ######8    |  68% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+poppler-24.08.0      | 1.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######4    |  64% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ######9    |  69% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######4    |  65% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #######    |  70% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######5    |  65% 
+
+
+
+
+
+
+
+
+
+
+
+
+libpq-16.10          | 2.4 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #######1   |  71% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######5    |  66% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #######2   |  72% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######6    |  67% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xerces-c-3.2.5       | 1.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libabseil-20240722.0 | 1.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #######2   |  73% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######7    |  68% pillow-11.3.0        | 40.5 MB   | ######8    |  68% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #######3   |  74% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######9    |  69% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #######4   |  75% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ######9    |  70% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #######5   |  76% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #######    |  71% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #######7   |  77% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #######1   |  71% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #######8   |  79% [A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #######9   |  80% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #######2   |  72% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ########   |  81% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #######2   |  73% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ########2  |  82% [A[A[A[A[A
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ########3  |  83% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #######3   |  74% pillow-11.3.0        | 40.5 MB   | #######5   |  75% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ########4  |  85% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #######6   |  76% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ########5  |  86% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #######7   |  77% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ########7  |  87% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #######8   |  78% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ########8  |  88% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #######8   |  79% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ########9  |  90% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #######9   |  80% pillow-11.3.0        | 40.5 MB   | ########   |  81% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #########  |  91% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ########1  |  82% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #########2 |  92% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ########2  |  83% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #########3 |  93% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ########4  |  84% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #########4 |  95% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ########5  |  85% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #########6 |  96% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ########6  |  86% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #########7 |  97% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ########7  |  88% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #########8 |  98% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | ########8  |  89% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | #########9 | 100% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #########  |  90% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ########## | 100% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #########1 |  91% pillow-11.3.0        | 40.5 MB   | #########2 |  92% pillow-11.3.0        | 40.5 MB   | #########3 |  94% pillow-11.3.0        | 40.5 MB   | #########4 |  95% pillow-11.3.0        | 40.5 MB   | #########6 |  96% 
+
+
+
+
+matplotlib-base-3.10 | 8.1 MB    | ########## | 100% [A[A[A[A[Apillow-11.3.0        | 40.5 MB   | #########7 |  97% pillow-11.3.0        | 40.5 MB   | #########8 |  98% pillow-11.3.0        | 40.5 MB   | #########9 | 100% pillow-11.3.0        | 40.5 MB   | ########## | 100% pillow-11.3.0        | 40.5 MB   | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A done
+Preparing transaction: - \ | / - \ done
+Verifying transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done

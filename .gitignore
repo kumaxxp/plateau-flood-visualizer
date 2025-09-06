@@ -34,12 +34,41 @@ models/*.safetensors
 models/*.ckpt
 models/*.pth
 
+
+# 仮想環境・環境変数
+.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
 # IDE
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
 .vscode/
+.vscode/
+.idea/
+
 .idea/
 *.swp
 *.swo
 *~
+
+*.swp
+.DS_Store
+Thumbs.db
+
+*.swo
+*.log
+logs/
+
+*~
+tmp/
+temp/
+cache/
 
 # OS
 .DS_Store
@@ -54,3 +83,9 @@ tmp/
 temp/
 cache/
 data/plateau/tokyo_buildings.geojson
+
+# データディレクトリ全体を除外
+data/
+
+# notebooks/deck_out ディレクトリを除外
+notebooks/deck_out/
