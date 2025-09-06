@@ -1,0 +1,62 @@
+# ========== .gitignore ==========
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Conda
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large files)
+data/plateau/*.gpkg
+data/plateau/*.gml
+data/plateau/*.geojson
+data/dem/*.tif
+*.zip
+*.tar.gz
+*.7z
+
+# Output files
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.html
+
+# Model files
+models/*.safetensors
+models/*.ckpt
+models/*.pth
+models/*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.err
+
+# Temporary files
+tmp/
+temp/
+cache/
