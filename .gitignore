@@ -53,3 +53,4 @@ logs/
 tmp/
 temp/
 cache/
+data/plateau/tokyo_buildings.geojson

@@ -44,18 +44,18 @@ dependencies:
   # pip依存パッケージ
   - pip
   - pip:
-    # 3D Tiles処理
-    - py3dtiles==7.0.0
+    # 可視化（バージョン指定を緩和）
+    - pydeck>=0.8.0
     
-    # 点群処理
-    - laspy==2.5.3
-    - open3d==0.18.0
-    
-    # PLATEAUデータ処理
-    - pydeck==0.8.1
+    # CLIツール
+    - typer>=0.9.0
+    - rich>=13.7.0
     
     # ユーティリティ
-    - python-dotenv==1.0.0
-    - tqdm==4.66.1
-    - typer==0.9.0
-    - rich==13.7.0
+    - python-dotenv>=1.0.0
+    - tqdm>=4.66.0
+    
+    # オプション：3D処理（エラーが出ても無視）
+    - py3dtiles>=7.0.0
+    - laspy>=2.5.0
+    # open3dはPython 3.11で問題があるため除外

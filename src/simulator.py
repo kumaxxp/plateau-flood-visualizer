@@ -12,6 +12,8 @@ from pathlib import Path
 from typing import Optional, Dict, List, Tuple
 import json
 from tqdm import tqdm
+import numpy as np
+from shapely.geometry import Polygon
 
 
 class FloodSimulator:
@@ -52,7 +54,8 @@ class FloodSimulator:
                     filepath = files[0]
                     break
             else:
-                raise FileNotFoundError(f"建物データが見つかりません: {self.data_dir}")
+                print(f"警告: 建物データが見つかりません。仮想データを生成します。")
+                return self._create_virtual_buildings()
         
         print(f"建物データ読み込み中: {filepath}")
         self.buildings = gpd.read_file(filepath)
@@ -269,6 +272,52 @@ class FloodSimulator:
         
         return output_file, stats_file
 
+
+
+    def _create_virtual_buildings(self) -> gpd.GeoDataFrame:
+        """仮想建物データを生成"""
+        import numpy as np
+        from shapely.geometry import Polygon
+        
+        print("  仮想建物データを生成中...")
+        buildings = []
+        np.random.seed(42)
+        
+        # 都市の中心座標
+        if self.city == "tokyo":
+            center_lon, center_lat = 139.7, 35.68
+        elif self.city == "nagoya":
+            center_lon, center_lat = 136.9, 35.18
+        else:
+            center_lon, center_lat = 139.7, 35.68
+        
+        # 100個の建物を生成
+        for i in range(100):
+            lon = center_lon + np.random.uniform(-0.01, 0.01)
+            lat = center_lat + np.random.uniform(-0.01, 0.01)
+            size = 0.0001  # 約10m四方
+            
+            poly = Polygon([
+                (lon, lat),
+                (lon + size, lat),
+                (lon + size, lat + size),
+                (lon, lat + size)
+            ])
+            
+            buildings.append({
+                'geometry': poly,
+                'height': np.random.uniform(5, 50),
+                'ground_height': np.random.uniform(0, 5)
+            })
+        
+        self.buildings = gpd.GeoDataFrame(buildings)
+        self.buildings.set_crs('EPSG:4326', inplace=True)
+        self.bounds = self.buildings.total_bounds
+        
+        print(f"  生成建物数: {len(self.buildings)}")
+        print(f"  エリア: {self.city}（仮想データ）")
+        
+        return self.buildings
 
 if __name__ == "__main__":
     # テスト実行
